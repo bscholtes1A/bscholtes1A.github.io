@@ -1,0 +1,16 @@
+[
+  {
+    "name": "amadeus",
+    "url": "http://localhost:7172",
+    "supportedProtocols": [
+      "ids-multipart"
+    ]
+  },
+  {
+    "name": "sncf",
+    "url": "http://localhost:6162",
+    "supportedProtocols": [
+      "ids-multipart"
+    ]
+  }
+]
