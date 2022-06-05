@@ -1,0 +1,23 @@
+[
+  {
+    "name": "sncf",
+    "url": "http://sncf-edc.apps.zr03wq4z.uksouth.aroapp.io",
+    "supportedProtocols": [
+      "ids-multipart"
+    ]
+  },
+  {
+    "name": "afkl",
+    "url": "http://afkl-edc.apps.zr03wq4z.uksouth.aroapp.io",
+    "supportedProtocols": [
+      "ids-multipart"
+    ]
+  },
+  {
+    "name": "amadeus",
+    "url": "http://amadeus-edc.apps.zr03wq4z.uksouth.aroapp.io",
+    "supportedProtocols": [
+      "ids-multipart"
+    ]
+  }
+]
