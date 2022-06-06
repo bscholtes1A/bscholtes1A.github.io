@@ -19,5 +19,19 @@
     "supportedProtocols": [
       "ids-multipart"
     ]
+  },
+  {
+    "name": "seamtravl",
+    "url": "http://seamtravl-edc.apps.zr03wq4z.uksouth.aroapp.io",
+    "supportedProtocols": [
+      "ids-multipart"
+    ]
+  },
+  {
+    "name": "ustravl",
+    "url": "http://ustravl-edc.apps.zr03wq4z.uksouth.aroapp.io",
+    "supportedProtocols": [
+      "ids-multipart"
+    ]
   }
 ]
