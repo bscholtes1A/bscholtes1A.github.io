@@ -1,0 +1,38 @@
+{
+  "selfDescription": {
+    "@context": {
+      "sh": "http://www.w3.org/ns/shacl#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "gx-participant": "http://w3id.org/gaia-x/participant#"
+    },
+    "@type": "gx-participant:LegalPerson",
+    "@id": "https://www.ustravel.us/",
+    "gx-participant:registrationNumber": {	
+      "@type": "xsd:string",	
+      "@value": "DEANY1234NUMBER"	
+    },	
+    "gx-participant:legalAddress": {	
+      "@type": "gx-participant:Address",	
+      "gx-participant:country": {	
+        "@type": "xsd:string",	
+        "@value": "USA"	
+      },
+      "gx-participant:state": {
+        "@type": "xsd:string",
+        "@value": "AL"
+      }
+
+    },	
+    "gx-participant:headquarterAddress": {	
+      "@type": "gx-participant:Address",	
+      "gx-participant:country": {	
+        "@type": "xsd:string",	
+        "@value": "USA"	
+      },
+      "gx-participant:state": {
+        "@type": "xsd:string",
+        "@value": "AL"
+      }
+    }
+  }
+}

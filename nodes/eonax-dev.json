@@ -1,0 +1,37 @@
+[
+  {
+    "name": "sncf",
+    "url": "http://sncf-edc-eonax-dev.apps.zr03wq4z.uksouth.aroapp.io",
+    "supportedProtocols": [
+      "ids-multipart"
+    ]
+  },
+  {
+    "name": "afkl",
+    "url": "http://afkl-edc-eonax-dev.apps.zr03wq4z.uksouth.aroapp.io",
+    "supportedProtocols": [
+      "ids-multipart"
+    ]
+  },
+  {
+    "name": "amadeus",
+    "url": "http://amadeus-edc-eonax-dev.apps.zr03wq4z.uksouth.aroapp.io",
+    "supportedProtocols": [
+      "ids-multipart"
+    ]
+  },
+  {
+    "name": "seamtravel",
+    "url": "http://seamtravel-edc-eonax-dev.apps.zr03wq4z.uksouth.aroapp.io",
+    "supportedProtocols": [
+      "ids-multipart"
+    ]
+  },
+  {
+    "name": "ustravel",
+    "url": "http://ustravel-edc-eonax-dev.apps.zr03wq4z.uksouth.aroapp.io",
+    "supportedProtocols": [
+      "ids-multipart"
+    ]
+  }
+]
