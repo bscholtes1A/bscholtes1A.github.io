@@ -1,0 +1,70 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "http://www.w3.org/ns/shacl#",
+      "http://www.w3.org/2001/XMLSchema#",
+      "http://w3id.org/gaia-x/participant#",
+      "@nest"
+    ],
+    "@id": "https://compliance.gaia-x.eu/.well-known/participant.json",
+    "@type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "credentialSubject": {
+      "id": "did:compliance.gaia-x.eu",
+      "gx-participant:name": {
+        "@value": "SNCF",
+        "@type": "xsd:string"
+      },
+      "gx-participant:registrationNumber": {
+        "@type": "xsd:string",
+        "@value": "DEANY1234NUMBER"
+      },
+      "gx-participant:headquarterAddress": {
+        "@type": "gx-participant:Address",
+        "gx-participant:country": {
+          "@value": "FR",
+          "@type": "xsd:string"
+        }
+      },
+      "gx-participant:legalAddress": {
+        "@type": "gx-participant:Address",
+        "gx-participant:country": {
+          "@value": "FR",
+          "@type": "xsd:string"
+        }
+      }
+    },
+    "proof": {
+      "type": "JsonWebKey2020",
+      "created": "2022-07-05T14:42:36.161Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:test.delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..oEoP0tR-ZpEdLUH2EzMpGVc6nviY6cyv4XwBXXyh38y0fEzuLAPYI3tVHBme5FwpXHgwBnatBerTNvnIWhwB5AOl5D3zZlpryhA4-4eYoE2n1dXLhQPb--g0UPFthrO1ULmi2yHuLjIDbtC1Z_m3RtCk2b9QtQICOpWxmx-lO4kRRheoSkag9l-a2MkUbSjszu8gXj4UiiByxF80mOT7TtyAZ-mS-swQCgREf9cafhj7rsyFUYbcPph8cR3aIUuGQ4oia4jvg-3qBp6Nc4C44LgKNNgR-F3RkesMWvgtGB3GCXslRxrcK4VS7LXKtXgFIjn1EfsWCAtNSa5W8ejMzw"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "@type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1657032157590",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2022-07-05T14:42:37.590Z",
+    "credentialSubject": {
+      "id": "did:compliance.gaia-x.eu",
+      "hash": "d77e31da614dd56326dc23f6f28323056af80dc9a84ae152f4dd2c65ba5faa75"
+    },
+    "proof": {
+      "type": "JsonWebKey2020",
+      "created": "2022-07-05T14:42:37.590Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..HrbjmkxB7EV8dXwMXuqtEbXMx7Df1ZJ83IUcuQVIUn10Dwh93Xd60J7_fIeXnX5yCI7ZvzSM6jSQ7weGAYE-K0oog26559T_yNmmeBNL2_Kc50IJxquNMno9u62guBGRJ3GB2GJU8N2hT4XCAh5Vr-2En84OJsxU6m5caU3HpIgqHIoBG8jStwAYBp69TgPLtDQNsJ9qlhmXov9zheVPJYDGzH4ADLs6DdGwMpc0Vz3Nq3cT17I3Eb4LPGGiIQAmipz70oJx1UUtvsT_RbrvuL0cFU2t7AVDLKXxIYSsU_Pmvwt2wGMQjEWPKT22hgMPmbBYoG89qZKItvRBQzejLg",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}

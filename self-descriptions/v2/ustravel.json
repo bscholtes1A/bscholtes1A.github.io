@@ -1,0 +1,78 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "http://www.w3.org/ns/shacl#",
+      "http://www.w3.org/2001/XMLSchema#",
+      "http://w3id.org/gaia-x/participant#",
+      "@nest"
+    ],
+    "@id": "https://compliance.gaia-x.eu/.well-known/participant.json",
+    "@type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "credentialSubject": {
+      "id": "did:compliance.gaia-x.eu",
+      "gx-participant:name": {
+        "@value": "UStravel",
+        "@type": "xsd:string"
+      },
+      "gx-participant:registrationNumber": {
+        "@type": "xsd:string",
+        "@value": "DEANY1234NUMBER"
+      },
+      "gx-participant:headquarterAddress": {
+        "@type": "gx-participant:Address",
+        "gx-participant:country": {
+          "@value": "US",
+          "@type": "xsd:string"
+        },
+        "gx-participant:state": {
+          "@type": "xsd:string",
+          "@value": "AL"
+        }
+      },
+      "gx-participant:legalAddress": {
+        "@type": "gx-participant:Address",
+        "gx-participant:country": {
+          "@value": "USA",
+          "@type": "xsd:string"
+        },
+        "gx-participant:state": {
+          "@type": "xsd:string",
+          "@value": "AL"
+        }
+      }
+    },
+    "proof": {
+      "type": "JsonWebKey2020",
+      "created": "2022-07-05T14:45:40.478Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:test.delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..089Dhcj9O-dUp4bUK-CqsAEebiwbqeH44px9SPjl_CQjsJ-iUqACkuPH8T-VvZNEIO1Ewj7mFUSu8ks2WpmXWGr7Vihla8A2DUSFaFegHTBnTnCEqnkKxsqQIkittEDvBr-JJYNug-NxgzoQAkc0PXq_StZV7xBx5tmSqAtJh-dMH9g5JRqo3XXbt0FcMj8TAZ2LdvEMImUR8XT6jqRFJOYwFSX9_oaVkW9O1nlEf7NQCIH7S4RyYPk9Whlpo9rx6ar9ja9uqbvfzA_NxRCNdIFH9XG-pqLdytKG_itJK5E_1BxEBiqhket_x0h5QlMzqQteOvTNcpk79NwVFFI2AQ"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "@type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1657032341890",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2022-07-05T14:45:41.890Z",
+    "credentialSubject": {
+      "id": "did:compliance.gaia-x.eu",
+      "hash": "dc456d4e672c60e6516bc2903cdc80c302bd72a41222c341e0683a03323d6f50"
+    },
+    "proof": {
+      "type": "JsonWebKey2020",
+      "created": "2022-07-05T14:45:41.890Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..tOF9YoyvMHMm1JVzA8D1WxR8KlNNZs4RZCLc-Bj9g9CBnDyAaYHLGBuOoq4Kv-V7mAipnqnqQjH9rPGtqVtpyc5D8y7hhnuI3bmsj_Pyg6br70tnaQ27M3Aw8kfCE3-PRS1f1dn2IHOPAu9ujoYUC8bIqSNgM7FI3L6T0ePs4zZZjWo3lmaRTocNIIUjBZ9AorkDbKRUR6RVCubJg47ciikAbQYm5Gg3LIIQ_hM7toM03HBQ-HFiv3x5ts4iG4Kyt5SFFmr8cDeV1sQfa2XiNegmFIHehi8mqzSDvBgfR8Rx0d9MSecR0whlSRuv23OIhJjM_gpqatGQWxaHSXMuUA",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
