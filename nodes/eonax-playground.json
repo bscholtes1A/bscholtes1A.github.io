@@ -1,35 +1,35 @@
 [
   {
     "name": "sncf",
-    "url": "http://sncf-edc-eonax-playground.apps.zr03wq4z.uksouth.aroapp.io",
+    "url": "http://sncf-eonax-playground.apps.zr03wq4z.uksouth.aroapp.io",
     "supportedProtocols": [
       "ids-multipart"
     ]
   },
   {
     "name": "afkl",
-    "url": "http://afkl-edc-eonax-playground.apps.zr03wq4z.uksouth.aroapp.io",
+    "url": "http://afkl-eonax-playground.apps.zr03wq4z.uksouth.aroapp.io",
     "supportedProtocols": [
       "ids-multipart"
     ]
   },
   {
     "name": "amadeus",
-    "url": "http://amadeus-edc-eonax-playground.apps.zr03wq4z.uksouth.aroapp.io",
+    "url": "http://amadeus-eonax-playground.apps.zr03wq4z.uksouth.aroapp.io",
     "supportedProtocols": [
       "ids-multipart"
     ]
   },
   {
     "name": "seamtravel",
-    "url": "http://seamtravel-edc-eonax-playground.apps.zr03wq4z.uksouth.aroapp.io",
+    "url": "http://seamtravel-eonax-playground.apps.zr03wq4z.uksouth.aroapp.io",
     "supportedProtocols": [
       "ids-multipart"
     ]
   },
   {
     "name": "ustravel",
-    "url": "http://ustravel-edc-eonax-playground.apps.zr03wq4z.uksouth.aroapp.io",
+    "url": "http://ustravel-eonax-playground.apps.zr03wq4z.uksouth.aroapp.io",
     "supportedProtocols": [
       "ids-multipart"
     ]
